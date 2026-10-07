@@ -1,5 +1,19 @@
 # Submission B — Projects
 
+
+## Complete Intelligent Contract review source
+
+EchoMap includes the [complete Intelligent Contract source](intelligent-contract/contracts/evidence_independence_matrix.py) at `intelligent-contract/contracts/evidence_independence_matrix.py`. This file is byte-identical to the canonical Repository A production source (SHA256 `121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095`). It is a review copy of the same deployed Evidence Independence Matrix, not a second contract deployment. EchoMap really calls the canonical deployed Intelligent Contract through genlayer-js (see `src/genlayer.ts` and `src/transactions.ts`). [Source provenance](intelligent-contract/SOURCE_PROVENANCE.md) and [deployment manifest](intelligent-contract/DEPLOYMENT_MANIFEST_STUDIONET.md) preserve the immutable source checkpoint and deployment source commit. Repository A remains the standalone Intelligent Contracts submission.
+
+Submission A / Intelligent Contracts primary repository: https://github.com/halihalibt/evidence-independence-matrix
+
+Submission B / Projects primary repository: https://github.com/halihalibt/echomap
+
+Submission B public demo: https://halihalibt.github.io/echomap/
+
+Use Repository B as the Projects repository URL; Repository A's URL is not required in that field. Portal duplicate-URL avoidance is handled separately during submission. This patch does not perform Portal submission.
+
+
 ## Project and positioning
 
 **Project name:** EchoMap.

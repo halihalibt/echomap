@@ -7,6 +7,20 @@ GenLayer is the product's computation and shared-result layer:the frontend calls
 **Canonical:**`0x7045b893E15B699e04494aA3849730bC6Aa1C864` · Stable Studionet61999 · EIM-V1-STUDIO. [Contract source/primitive](https://github.com/halihalibt/evidence-independence-matrix) · [Evidence index](EVIDENCE_INDEX.md).
 **Public demo:** [Open EchoMap](https://halihalibt.github.io/echomap/). Public read-only smoke passed: homepage, canonical network/contract, both finalized examples, direct report reload, bilingual copy and no-wallet discovery guidance.
 
+
+## Complete Intelligent Contract review source
+
+EchoMap includes the [complete Intelligent Contract source](intelligent-contract/contracts/evidence_independence_matrix.py) at `intelligent-contract/contracts/evidence_independence_matrix.py`. This file is byte-identical to the canonical Repository A production source (SHA256 `121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095`). It is a review copy of the same deployed Evidence Independence Matrix, not a second contract deployment. EchoMap really calls the canonical deployed Intelligent Contract through genlayer-js (see `src/genlayer.ts` and `src/transactions.ts`). [Source provenance](intelligent-contract/SOURCE_PROVENANCE.md) and [deployment manifest](intelligent-contract/DEPLOYMENT_MANIFEST_STUDIONET.md) preserve the immutable source checkpoint and deployment source commit. Repository A remains the standalone Intelligent Contracts submission.
+
+Submission A / Intelligent Contracts primary repository: https://github.com/halihalibt/evidence-independence-matrix
+
+Submission B / Projects primary repository: https://github.com/halihalibt/echomap
+
+Submission B public demo: https://halihalibt.github.io/echomap/
+
+Use Repository B as the Projects repository URL; Repository A's URL is not required in that field. Portal duplicate-URL avoidance is handled separately during submission. This patch does not perform Portal submission.
+
+
 ## User flow
 
 Connect compatible injected wallet →enter claim/context/2–4supportedURLs →Assess evidence once →GenLayer consensus →successful FINALIZED receipt →matching finalized get_assessment →Shared Report. Accepted alone is not success. MAJORITY_DISAGREE or execution failure stays a failure, creates no successful report and never triggers automatic resubmission. Reports are wallet-free hash routes.
