@@ -6,7 +6,7 @@
 **One-line description:** A static application for submitting an evidence pack, following GenLayer provenance consensus, and sharing a finalized independence matrix.
 **Primary category:** Research and evidence collaboration application built on an Intelligent Contract.
 **Target user:** Research collaborators, DAO reviewers, and people comparing public evidence sources.
-**Publication status:** Final source/build/evidence are staged locally. Repository and Pages publication are BLOCKED; the intended demo is not yet a verified public URL.
+**Publication status:** Repository and HTTPS Pages demo are public. Read-only public browser smoke PASS. Portal submission awaits user review.
 
 ## Problem and product flow
 
@@ -20,14 +20,14 @@ The existing Evidence Independence Matrix contract provides native source fetchi
 
 ## Repository, demo, contract and source
 
-- Repository B: https://github.com/halihalibt/echomap — intended; creation/publication not yet verified.
-- Public demo: https://halihalibt.github.io/echomap/ — intended; NOT PUBLISHED / NOT VERIFIED.
+- Repository B: https://github.com/halihalibt/echomap — PUBLIC / verified.
+- Public demo: https://halihalibt.github.io/echomap/ — PUBLIC / read-only smoke PASS.
 - Canonical contract: `0x7045b893E15B699e04494aA3849730bC6Aa1C864`.
 - Network: Stable Studionet, Chain ID 61999.
 - Protocol: EIM-V1-STUDIO; schema EIM-CANDIDATE-V1; consensus revision ACR-001-SAFETY-1.
 - Contract source repository: https://github.com/halihalibt/evidence-independence-matrix.
-- Deployment source commit: `4874fd469cb5477b9d8f8ec9dbc19252a6112e6e`; production file SHA256 `121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095`. The Git bundle preserves the local source commit; remote final-source publication remains pending.
-- Frontend production baseline: a6da8809c4330f4dd43de773a67862a24a7f2c1b; closure checkpoint d6b4a5d41299f0b920f4b1d002e431890582d0d0. Final remote publication commit is not yet available.
+- Deployment source commit: `4874fd469cb5477b9d8f8ec9dbc19252a6112e6e`; production file SHA256 `121deb7f9a2a0ae4c7704e96d74b3678054ccd2dbed77ff7e3373fa75749c095`. The Git bundle preserves the local source commit; the exact production source and public bundle are published, byte-matched to canonical deployment evidence.
+- Frontend production baseline: a6da8809c4330f4dd43de773a67862a24a7f2c1b; closure checkpoint d6b4a5d41299f0b920f4b1d002e431890582d0d0. Public source/evidence checkpoint: `9751035320fe81108d28fbf592b0f2265b499638`; later documentation publication is recorded separately.
 
 ## Verified onchain examples
 
@@ -35,7 +35,7 @@ Homepage entries distinguish SYNTHETIC DEMO from REAL PUBLIC DOCUMENT EXAMPLE. T
 
 Controlled request `68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f`, creation transaction `0xec875a1a5de724b7fd6a407e851ba736393ae508f330c1b94059c9f72191d7f4`: actual PARTIAL, 1 DEPENDENT /2 INDEPENDENT /3 UNKNOWN, maximum set [A,C], size2.
 
-Real public-document request `5c8aae111e19f6b193d5a8b4b8dce4697f424166922cd2116b49343b620c7b46`, creation transaction `0x77ddb362ff4fa11dc9a827de14f143da266c3c9c82d018950c9fc9376b45f4bb`: fixed ERC-20 specification and OpenZeppelin IERC20; actual DEPENDENT /COMPLETE. Public hash-report routes remain pending publication.
+Real public-document request `5c8aae111e19f6b193d5a8b4b8dce4697f424166922cd2116b49343b620c7b46`, creation transaction `0x77ddb362ff4fa11dc9a827de14f143da266c3c9c82d018950c9fc9376b45f4bb`: fixed ERC-20 specification and OpenZeppelin IERC20; actual DEPENDENT /COMPLETE. Both public hash-report routes are live and passed read-only direct-load/reload verification.
 
 ## Real successful wallet E2E
 
@@ -59,8 +59,8 @@ Verified during development: MetaMask and OKX Wallet. Other EIP-1193 /EIP-6963 c
 
 ## How to test / reviewer quick path
 
-After publication: open the homepage → view the verified example without a wallet → inspect matrix, digests, UNKNOWN and maximum set → open the real-document example → direct-load and refresh a shared hash-report route → inspect distinct successful-wallet and failure-recovery evidence. No new assessment is needed to review. README includes exact build/test commands; PUBLISHING_CHECKLIST.md records the pending public browser smoke.
+Open the public homepage → view the verified example without a wallet → inspect matrix, digests, UNKNOWN and maximum set → open the real-document example → direct-load and refresh a shared hash-report route → inspect distinct successful-wallet and failure-recovery evidence. No new assessment is needed to review. README includes exact build/test commands; PUBLISHING_CHECKLIST.md records the successful public read-only smoke.
 
 ## Tests and known limitations
 
-127 local tests PASS,0 failures/skips, production build PASS. Provider/error cases are mocked; real-model negative controls are NOT REAL-NETWORK VERIFIED. Visible source declarations may omit or fabricate origins, semantic outputs can vary and consensus can fail. Only2–4 bounded GitHub text sources are supported. Browser recovery is origin-local with no cross-tab lock. Pages/public-link smoke remains BLOCKED until actual publication. No Portal or social submission has been performed.
+127 local tests PASS,0 failures/skips, production build PASS. Provider/error cases are mocked; real-model negative controls are NOT REAL-NETWORK VERIFIED. Visible source declarations may omit or fabricate origins, semantic outputs can vary and consensus can fail. Only2–4 bounded GitHub text sources are supported. Browser recovery is origin-local with no cross-tab lock. Public Pages/report smoke PASS. No Portal or social submission has been performed.

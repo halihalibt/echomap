@@ -5,7 +5,7 @@ EchoMap helps research collaborators and DAO reviewers map **source provenance a
 GenLayer is the product's computation and shared-result layer:the frontend calls the existing EIM Intelligent Contract; participants independently bind source evidence and validate semantic labels. EchoMap displays fresh finalized chain records and checks deterministic consistency. It has no backend, database, indexer or second business contract.
 
 **Canonical:**`0x7045b893E15B699e04494aA3849730bC6Aa1C864` · Stable Studionet61999 · EIM-V1-STUDIO. [Contract source/primitive](https://github.com/halihalibt/evidence-independence-matrix) · [Evidence index](EVIDENCE_INDEX.md).
-**Public demo publication is currently BLOCKED**, not live-verified. Intended Pages URL:`https://halihalibt.github.io/echomap/`. Do not use localhost as a public demo or submit before the publication checklist passes.
+**Public demo:** [Open EchoMap](https://halihalibt.github.io/echomap/). Public read-only smoke passed: homepage, canonical network/contract, both finalized examples, direct report reload, bilingual copy and no-wallet discovery guidance.
 
 ## User flow
 
@@ -43,7 +43,7 @@ npm run dev -- --host 127.0.0.1 --port 5173 --strictPort
 
 127 local tests PASS in final packaging;strict production build PASS. Retained bundle-size warning is nonblocking. No new transaction/deployment during packaging. Existing PHASE6/8 evidence is preserved. [Exact frontend environment](docs/ENVIRONMENT_FRONTEND.md).
 
-Static Pages artifact is staged under docs/:copy of verified dist/ plus .nojekyll. Configure GitHub Pages to deploy main,/docs; Vite base/echomap/ and #/report routes need no server rewrite. [Publication checklist](PUBLISHING_CHECKLIST.md) records outstanding public smoke; no online success is claimed before it runs.
+Static Pages is published from main,/docs: the verified build plus .nojekyll. Vite base/echomap/ and #/report routes need no server rewrite. [Publication checklist](PUBLISHING_CHECKLIST.md) records the successful public smoke. Source/evidence publication checkpoint: `9751035320fe81108d28fbf592b0f2265b499638`; later documentation commits preserve production source.
 
 ## Known limitations
 

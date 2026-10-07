@@ -1,10 +1,14 @@
 # Static GitHub Pages publication checklist
 
-Status:LOCAL ARTIFACT READY /PUBLICATION BLOCKED. GitHub connector profile and both repo reads returned -32603; no remote write was attempted. Current browser-tool fallback rule requires approval before using GitHub webpage after connector failure.
+Status: PUBLIC / READ-ONLY SMOKE PASS. GitHub webpage publication was explicitly approved after connector -32603. No connector retries, new chain deployment or business transaction.
 
-- Create/confirm public halihalibt/echomap without copying a contract; publish verified source,lock,tests,docs and evidence.
-- Publish A canonical source/docs/evidence independently, preserving existing fixture SHA and local deployed source bundle.
-- B Pages:Deploy from branch main,/docs. The built docs/index.html/assets and docs/.nojekyll are already staged. No backend/workflow dependency required for this static branch artifact.
-- Intended URL:https://halihalibt.github.io/echomap/; Vite base/echomap/. Hash route #/report/<request_id> must direct-load/refresh without404.
-- Read-only browser smoke:home/network/protocol/examples/report/Chinese/actual wallet discovery or zero-provider guidance/Connect UI/direct-report reload. No assess/sign/write/new deployment.
-- Record actual publication commits, Pages settings/deploy result, public HTTP/browser observations and screenshots. Until then do not label the intended URL LIVE or submission-ready.
+- Repository A: https://github.com/halihalibt/evidence-independence-matrix — public, source/evidence checkpoint a54a4fde7a6d601de0ef470687e1104e0eb989cc; existing fixture commit retained.
+- Repository B: https://github.com/halihalibt/echomap — public, source/evidence checkpoint 9751035320fe81108d28fbf592b0f2265b499638.
+- Pages source: main /docs; existing verified build, Vite base /echomap/, hash routes; no backend or custom workflow.
+- Public HTTPS demo: https://halihalibt.github.io/echomap/
+- Successful GitHub Pages run: https://github.com/halihalibt/echomap/actions/runs/37661697742
+- Browser PASS: homepage; Stable61999/canonical contract; synthetic finalized PARTIAL 1D/2I/3U/[A,C]/2; public-document finalized DEPENDENT/COMPLETE; direct report URL/reload; English/中文; idle progress; zero-provider discovery guidance.
+- No wallet connect/sign/assess performed. Actual extension-wallet happy path remains the preserved PHASE6 user evidence; recovery remains PHASE8 failure-state evidence.
+- Published archives byte-matched 245 A files /105 B files against the approved publication packages before final documentation-only updates. Contract/source/tests/fixtures unchanged.
+- Existing 127 test/build PASS and 277 contract test evidence preserved, not rerun for publication.
+- Real negative controls NOT REAL-NETWORK VERIFIED. Portal submission NOT PERFORMED.

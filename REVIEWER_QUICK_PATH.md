@@ -1,6 +1,6 @@
 # Reviewer quick path — EchoMap
 
-Publication status:BLOCKED; intended `https://halihalibt.github.io/echomap/` is not yet a verified public demo. After publishing and passing read-only smoke:
+Publication status: PUBLIC / READ-ONLY SMOKE PASS. Open [EchoMap](https://halihalibt.github.io/echomap/):
 
 1. Open the public homepage; network61999 and canonical `0x7045b893E15B699e04494aA3849730bC6Aa1C864` must match.
 2. Without a wallet, open View Verified Onchain Example; note SYNTHETIC DEMO label, source matrix and UNKNOWN handling. Open Real Public Document Example separately.
