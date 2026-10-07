@@ -1,0 +1,4 @@
+{
+  "status": "NOT_RUN",
+  "reason": "Playwright runtime present; Chromium executable absent. No browser downloaded or E2E dependency added. Production HTTP preview and real SDK/SSR reads verified separately."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "suppliedName": "6eef61c3602b9562159b2c008dccebff(1).png",
+    "evidencePath": "evidence/phase8-user-screenshots/01-switching-network.png",
+    "sha256": "405b84b02f51164cd20f2b2b043fee7eeeff185553fb22ac2d9091dde8b28bbe",
+    "visibleObservation": "UI switching_network; request/key shown, no transaction ID yet"
+  },
+  {
+    "suppliedName": "6e7e1c4a81254f2d0a50995d6546892e(1).png",
+    "evidencePath": "evidence/phase8-user-screenshots/02-pending.png",
+    "sha256": "f696e334193e6733434cc6afd72f0a599b634082f091409e594992392145d241",
+    "visibleObservation": "UI pending /network PENDING /NO_MAJORITY; same tx/request/key"
+  },
+  {
+    "suppliedName": "76602c73607c33dd1f7915f88bca8b43(1).png",
+    "evidencePath": "evidence/phase8-user-screenshots/03-committing.png",
+    "sha256": "71aca811b4ad1572fac6b30d7c8ce0598f53286915ce380bb2baf33f2f5ba6f6",
+    "visibleObservation": "UI pending /network COMMITTING /NO_MAJORITY; same tx/request/key"
+  },
+  {
+    "suppliedName": "1c73182df7cd09b5a322f2d9138ae7e6(1).png",
+    "evidencePath": "evidence/phase8-user-screenshots/04-undetermined-failure.png",
+    "sha256": "903c6e1d3c1ccc0a217e93615317e0be4fbc98571423acb0ec6a11b88df4f1fb",
+    "visibleObservation": "UI execution_failed /UNDETERMINED /MAJORITY_DISAGREE /SUCCESS; same tx/request/key"
+  },
+  {
+    "suppliedName": "5b42ab2cea0832feea4069c579b4dc28(1).png",
+    "evidencePath": "evidence/phase8-user-screenshots/05-finalized-failure.png",
+    "sha256": "128463bee45672739ddd24ebb9b2d2723a2ecc18d927d44ed9d5673fd0f27aa5",
+    "visibleObservation": "UI execution_failed /FINALIZED /MAJORITY_DISAGREE /SUCCESS; same tx/request/key, no successful report"
+  }
+]

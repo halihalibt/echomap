@@ -1,0 +1,113 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> echomap@0.1.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ single final canonical config, SDK/read contract source binding (1.765354ms)
+✔ manifest only contains navigation coordinates, explicit synthetic/real labels (0.884148ms)
+✔ protocol compatibility rejects wrong schema, version, limits and extra source rule (0.558312ms)
+✔ frozen cross-language vector Vector_1 (41.457523ms)
+✔ frozen cross-language vector k (18.059888ms)
+✔ frozen cross-language vector Case-sensitive-key (1.613797ms)
+✔ exact one-pass BOM/CR/Python whitespace, no additional normalization (0.305707ms)
+✔ input field code-point boundaries and duplicate normalized URLs (4.536254ms)
+✔ reject restricted URL http://raw.githubusercontent.com/a/b/a.txt (0.229022ms)
+✔ reject restricted URL https://evil.com/a.txt (0.263683ms)
+✔ reject restricted URL https://a.b.github.io/a.txt (0.118921ms)
+✔ reject restricted URL https://a.github.io/a.html (0.450149ms)
+✔ reject restricted URL https://a.github.io/a.txt?x=1 (0.085635ms)
+✔ reject restricted URL https://a.github.io/a.txt#x (0.034226ms)
+✔ reject restricted URL https://a.github.io:80/a.txt (0.122646ms)
+✔ reject restricted URL https://user@a.github.io/a.txt (0.039643ms)
+✔ reject restricted URL https://a.github.io/a/../a.txt (0.039493ms)
+✔ reject restricted URL https://a.github.io/%2e%2e/a.txt (0.055734ms)
+✔ reject restricted URL https://a.github.io/%z1.txt (0.032515ms)
+✔ reject restricted URL https://a.github.io/中.txt (0.126967ms)
+✔ reject restricted URL https://a.github.io/a.PDF (0.07856ms)
+✔ reject restricted URL https://a.github.io/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (0.071676ms)
+✔ URL case/443 normalization preserves path bytes, percent escapes and order (0.127435ms)
+✔ hash routes work directly and reject malformed identifiers (0.507ms)
+✔ onchain mapping verifies both real offline snapshots, no matrix hardcode (1.103167ms)
+✔ candidate pair completeness, order, enum and unavailable invariants rejected (0.684802ms)
+✔ derived mismatch is an error, never rewrites onchain record (0.737597ms)
+✔ pair counts/max-set all INDEPENDENT (0.220039ms)
+✔ pair counts/max-set all DEPENDENT (0.15875ms)
+✔ pair counts/max-set all UNKNOWN (0.107954ms)
+✔ no/single eligible source, non-transitive independence and lexicographic tie (0.259014ms)
+✔ wallet-free adapter always uses latest-final and caches protocol once (13.20384ms)
+✔ found=false is separate from transport failure (0.617098ms)
+✔ protocol mismatch prevents assessment read; malformed found=false rejected (0.417095ms)
+✔ payload digest mismatch rejected beyond structural count verification (37.398558ms)
+✔ lookup returns correct ID/payload/status and rejects bad response (10.512251ms)
+✔ matrix renders text labels, SELF and stored direct BC relation (8.096751ms)
+✔ synthetic/real report labels bilingual fixed copy, safe escaped source data (46.851576ms)
+✔ all lifecycle states display, reducer cannot jump to success (7.02078ms)
+✔ homepage shows two live report coordinates and product-disabled submission (12.292987ms)
+✔ provider discovery selects explicit MetaMask/OKX among multiple legacy providers without connect (3.298327ms)
+✔ EIP6963 announcement prefers explicit rdns and deduplicates provider identity (0.369225ms)
+✔ connect rejection is classified; listeners cleaned and local detach does not revoke authorization (1.20847ms)
+✔ wrong chain switches using Stable parameters, switch rejection sends nothing (0.631941ms)
+✔ missing network follows add then switch, with locked native currency/RPC (0.988477ms)
+✔ account/chain events invalidate preparation; disconnect only detaches UI (0.384557ms)
+✔ account changed without event and incorrect chain are checked before signature (0.765061ms)
+✔ frozen reference vectors retain TS input/hash parity (21.879824ms)
+✔ client_key valid and retained across preparation/reconnect; explicit new alone creates new key (1.693607ms)
+✔ preflight existing same payload opens finalized record, no new write (8.722934ms)
+✔ preflight conflicting payload rejects before any write (0.995747ms)
+✔ single controller locks double click, submitted real ID retained and finalized read routes report (3.812516ms)
+✔ signature rejection keeps same draft key and exposes recoverable rejection (1.01117ms)
+✔ ACCEPTED is never final success and causes no assessment read until FINALIZED (1.85223ms)
+✔ finalized failure does not read a successful report {"status":"FINALIZED","execution":"ERROR"} (1.789568ms)
+✔ finalized failure does not read a successful report {"status":"FINALIZED","execution":"SUCCESS","consensus":"MAJORITY_DISAGREE"} (1.598169ms)
+✔ finalized failure does not read a successful report {"status":"FINALIZED"} (2.637515ms)
+✔ finalized read lag stays reading, retries only read and does not resend (4.203963ms)
+✔ receipt request_id mismatch fails before read (1.502856ms)
+✔ finalized record input/account mismatch cannot produce success (2.159757ms)
+✔ transport read error preserves transaction and never resends (1.538431ms)
+✔ protocol mismatch stops before lookup and signature (3.898566ms)
+GenLayer RPC error (eth_estimateGas): estimate unavailable
+Gas estimation failed, using default 200_000: UnknownRpcError: An unknown RPC error occurred.
+
+Details: estimate unavailable
+Version: viem@2.57.3
+    at withRetry.delay.count.count (/workspace/scratch/6ad74b9a2f71/echomap/node_modules/viem/utils/buildRequest.ts:264:25)
+    at async attemptRetry (/workspace/scratch/6ad74b9a2f71/echomap/node_modules/viem/utils/promise/withRetry.ts:63:22) {
+  details: 'estimate unavailable',
+  docsPath: undefined,
+  metaMessages: undefined,
+  shortMessage: 'An unknown RPC error occurred.',
+  version: '2.57.3',
+  code: -1,
+  [cause]: { code: -1, message: 'estimate unavailable' }
+}
+GenLayer RPC error (eth_estimateGas): estimate unavailable
+Error using provider for method eth_sendTransaction: UnknownRpcError: An unknown RPC error occurred.
+
+Details: estimate unavailable
+Version: viem@2.57.3
+    at withRetry.delay.count.count (/workspace/scratch/6ad74b9a2f71/echomap/node_modules/viem/utils/buildRequest.ts:264:25)
+    at async attemptRetry (/workspace/scratch/6ad74b9a2f71/echomap/node_modules/viem/utils/promise/withRetry.ts:63:22) {
+  details: 'estimate unavailable',
+  docsPath: undefined,
+  metaMessages: undefined,
+  shortMessage: 'An unknown RPC error occurred.',
+  version: '2.57.3',
+  code: -1,
+  [cause]: { code: -1, message: 'estimate unavailable' }
+}
+✔ confirmed insufficient funds classified; unknown submission locks automatic resubmission (9.047659ms)
+✔ locked SDK wallet path encodes canonical assess, full consensus and fee estimate before signature (MOCK) (27.709494ms)
+✔ SDK estimate failure cannot reach wallet signing even if SDK fallback triggers (MOCK) (15.917268ms)
+✔ actual historical receipt decoder uses official calldata encoding, no guessed result text (1.632303ms)
+✔ finalized COMPLETE maps only after matched public-document record (2.716517ms)
+✔ account change during preflight cancels write preparation before signature (0.935095ms)
+✔ exhausted finalized read lag pauses tracking and never resends or claims success (2.394291ms)
+✔ receipt binding matches actual historical assess and rejects foreign hash/sender/contract/calldata (1.7169ms)
+ℹ tests 70
+ℹ suites 0
+ℹ pass 70
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2309.762794

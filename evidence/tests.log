@@ -1,0 +1,53 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> echomap@0.1.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ single final canonical config, SDK/read contract source binding (1.189136ms)
+✔ manifest only contains navigation coordinates, explicit synthetic/real labels (0.691244ms)
+✔ protocol compatibility rejects wrong schema, version, limits and extra source rule (0.427596ms)
+✔ frozen cross-language vector Vector_1 (9.350848ms)
+✔ frozen cross-language vector k (1.091968ms)
+✔ frozen cross-language vector Case-sensitive-key (0.550461ms)
+✔ exact one-pass BOM/CR/Python whitespace, no additional normalization (0.221895ms)
+✔ input field code-point boundaries and duplicate normalized URLs (0.295877ms)
+✔ reject restricted URL http://raw.githubusercontent.com/a/b/a.txt (0.270859ms)
+✔ reject restricted URL https://evil.com/a.txt (0.13891ms)
+✔ reject restricted URL https://a.b.github.io/a.txt (0.235005ms)
+✔ reject restricted URL https://a.github.io/a.html (0.070166ms)
+✔ reject restricted URL https://a.github.io/a.txt?x=1 (0.038377ms)
+✔ reject restricted URL https://a.github.io/a.txt#x (0.032589ms)
+✔ reject restricted URL https://a.github.io:80/a.txt (0.076195ms)
+✔ reject restricted URL https://user@a.github.io/a.txt (0.03945ms)
+✔ reject restricted URL https://a.github.io/a/../a.txt (0.03986ms)
+✔ reject restricted URL https://a.github.io/%2e%2e/a.txt (0.06015ms)
+✔ reject restricted URL https://a.github.io/%z1.txt (0.03961ms)
+✔ reject restricted URL https://a.github.io/中.txt (0.094593ms)
+✔ reject restricted URL https://a.github.io/a.PDF (0.055193ms)
+✔ reject restricted URL https://a.github.io/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (0.123707ms)
+✔ URL case/443 normalization preserves path bytes, percent escapes and order (0.091969ms)
+✔ hash routes work directly and reject malformed identifiers (0.233042ms)
+✔ onchain mapping verifies both real offline snapshots, no matrix hardcode (1.485593ms)
+✔ candidate pair completeness, order, enum and unavailable invariants rejected (0.697974ms)
+✔ derived mismatch is an error, never rewrites onchain record (0.653607ms)
+✔ pair counts/max-set all INDEPENDENT (0.905137ms)
+✔ pair counts/max-set all DEPENDENT (0.120612ms)
+✔ pair counts/max-set all UNKNOWN (0.074253ms)
+✔ no/single eligible source, non-transitive independence and lexicographic tie (0.356057ms)
+✔ wallet-free adapter always uses latest-final and caches protocol once (6.252129ms)
+✔ found=false is separate from transport failure (0.460025ms)
+✔ protocol mismatch prevents assessment read; malformed found=false rejected (0.302096ms)
+✔ payload digest mismatch rejected beyond structural count verification (1.363178ms)
+✔ lookup returns correct ID/payload/status and rejects bad response (0.825516ms)
+✔ matrix renders text labels, SELF and stored direct BC relation (6.124717ms)
+✔ synthetic/real report labels bilingual fixed copy, safe escaped source data (11.597119ms)
+✔ all lifecycle states display, reducer cannot jump to success (5.459392ms)
+✔ homepage shows two live report coordinates and product-disabled submission (1.849984ms)
+ℹ tests 40
+ℹ suites 0
+ℹ pass 40
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 933.43508

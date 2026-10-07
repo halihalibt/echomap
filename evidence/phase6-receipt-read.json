@@ -1,0 +1,22 @@
+{
+  "type": "REAL READ ONLY / EXISTING PHASE4 TRANSACTION; NOT FRONTEND-ORIGINATED PHASE6 E2E",
+  "transaction": "0xec875a1a5de724b7fd6a407e851ba736393ae508f330c1b94059c9f72191d7f4",
+  "status": "FINALIZED",
+  "execution": "SUCCESS",
+  "consensus": "MAJORITY_AGREE",
+  "returns": [
+    {
+      "disposition": "NEW",
+      "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+      "result_status": "PARTIAL"
+    },
+    {
+      "disposition": "NEW",
+      "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+      "result_status": "PARTIAL"
+    }
+  ],
+  "recipient": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+  "time": "2026-10-07T11:12:32.102Z",
+  "newTransactions": 0
+}

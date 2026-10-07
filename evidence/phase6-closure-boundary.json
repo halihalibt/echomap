@@ -1,0 +1,21 @@
+{
+  "protectedFilesUnchanged": {
+    "src/controller.ts": "64c7e6f010eedc2dfe4c11b83efa5d5d14178835b57cf6f224632f7ed3034a3b",
+    "src/transactions.ts": "34e80042c79f93181e205c235b9de7077e77c9c6f53f05d569d163301658e7c2",
+    "src/genlayer.ts": "6e1f2949430a1789f09707c73743cd3870d1a27922f337e9a800187bb8515b34",
+    "src/core.ts": "506bd450a3a35286c5f5d71433f3701bcc8c4a4b5b0cb270fccbd82d2a8157fb",
+    "src/lifecycle.ts": "0c8f0bed06690c4b9faefb75e41b0b2f84e455c19941d63b5d9216dc9ea83a43",
+    "src/types.ts": "57c78105bbb8b0711439593080914c383eedba55e64a9b08be7f5f4fea3f051a",
+    "src/config/deployment.json": "8dbac3381237d50316e46fda488c22a2ab7435cfdb11948156b72306e6d74f50",
+    "package-lock.json": "ab11960e8779ecf0106f156b3b25e0fd1c9c6228c0220f66986d99bdba4ba3a2",
+    "tests/foundation.test.ts": "df5a7278cf9fc44dc98e5b962f1cb0a622194cee489eeaf97d4cba15113ed4c4"
+  },
+  "walletSessionUnchanged": true,
+  "original70TestDefinitionsUnchanged": true,
+  "AppSubmitReportReadLifecycleUnchanged": true,
+  "repositoryAExistingFilesUnchanged": true,
+  "freezeSHA256": "c2c8de7785c528b24eea126d58a74576d7e39746021560b448cfd358c65a2687",
+  "newTransactions": 0,
+  "newDeployments": 0,
+  "newDependencies": 0
+}

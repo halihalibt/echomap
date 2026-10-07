@@ -1,0 +1,21 @@
+{
+  "recordedAtUTC": "2026-10-07T16:54:08.864548+00:00",
+  "source": "User explicit PHASE8 manual acceptance statement in this conversation; screenshots supplied",
+  "transaction": "0x2915b28c0963aa42d026169e5181e93c3ff673ffa01e0485724e575aed4bf20d",
+  "request_id": "8bcc1dcb3ba13df648d68b9e81d01c2257695265c988a91cd5978d414076f350",
+  "client_key": "echo-33faa1919c7b4f4fa2247bfbfa1320dd",
+  "multipleManualRefreshesDuringLifecycle": true,
+  "refreshCount": "NOT_RECORDED; user reports multiple",
+  "sameTransactionRequestKeyContractAfterEveryRefresh": true,
+  "noResignAfterRefresh": true,
+  "noSecondWrite": true,
+  "noSecondTransactionID": true,
+  "noNewClientKey": true,
+  "continuedOriginalTrackingToFailureTerminal": true,
+  "acceptanceScope": "User explicitly authorizes closure using PHASE6 success happy-path +PHASE8 real multi-refresh failure handling; no second transaction",
+  "limitations": [
+    "Refresh actions/count not independently recorded by video/HAR",
+    "Wallet/browser brand/version not established by cropped screenshots",
+    "No real browser poller/429 instrumentation; retain local tests"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "phase": "PHASE8 PASS / CLOSED",
+  "sourceTestConfigAndPhase6EvidenceUnchanged": 33,
+  "repositoryAUnchanged": true,
+  "freezeUnchanged": true,
+  "productionChanges": 0,
+  "tests": "127 PASS preflight; unchanged since, not repeated",
+  "build": "PASS preflight; unchanged since, not repeated",
+  "userNewTransactions": 1,
+  "workTransactions": 0,
+  "newDeployments": 0,
+  "cashCost": 0,
+  "readOnlyRpcCalls": 4,
+  "phase9": "NOT_AUTHORIZED / NOT_STARTED"
+}

@@ -1,0 +1,170 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> echomap@0.1.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ single final canonical config, SDK/read contract source binding (1.340832ms)
+✔ manifest only contains navigation coordinates, explicit synthetic/real labels (0.751758ms)
+✔ protocol compatibility rejects wrong schema, version, limits and extra source rule (0.465969ms)
+✔ frozen cross-language vector Vector_1 (7.889708ms)
+✔ frozen cross-language vector k (1.040762ms)
+✔ frozen cross-language vector Case-sensitive-key (0.681202ms)
+✔ exact one-pass BOM/CR/Python whitespace, no additional normalization (0.231017ms)
+✔ input field code-point boundaries and duplicate normalized URLs (0.345759ms)
+✔ reject restricted URL http://raw.githubusercontent.com/a/b/a.txt (0.150225ms)
+✔ reject restricted URL https://evil.com/a.txt (0.152649ms)
+✔ reject restricted URL https://a.b.github.io/a.txt (0.067531ms)
+✔ reject restricted URL https://a.github.io/a.html (0.097005ms)
+✔ reject restricted URL https://a.github.io/a.txt?x=1 (0.048323ms)
+✔ reject restricted URL https://a.github.io/a.txt#x (0.034251ms)
+✔ reject restricted URL https://a.github.io:80/a.txt (0.070876ms)
+✔ reject restricted URL https://user@a.github.io/a.txt (0.037957ms)
+✔ reject restricted URL https://a.github.io/a/../a.txt (0.039179ms)
+✔ reject restricted URL https://a.github.io/%2e%2e/a.txt (0.038418ms)
+✔ reject restricted URL https://a.github.io/%z1.txt (0.055373ms)
+✔ reject restricted URL https://a.github.io/中.txt (0.15327ms)
+✔ reject restricted URL https://a.github.io/a.PDF (0.121412ms)
+✔ reject restricted URL https://a.github.io/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (0.15329ms)
+✔ URL case/443 normalization preserves path bytes, percent escapes and order (0.0994ms)
+✔ hash routes work directly and reject malformed identifiers (0.272569ms)
+✔ onchain mapping verifies both real offline snapshots, no matrix hardcode (1.141403ms)
+✔ candidate pair completeness, order, enum and unavailable invariants rejected (0.755364ms)
+✔ derived mismatch is an error, never rewrites onchain record (0.636755ms)
+✔ pair counts/max-set all INDEPENDENT (0.178798ms)
+✔ pair counts/max-set all DEPENDENT (0.150586ms)
+✔ pair counts/max-set all UNKNOWN (0.08001ms)
+✔ no/single eligible source, non-transitive independence and lexicographic tie (0.22653ms)
+✔ wallet-free adapter always uses latest-final and caches protocol once (8.234575ms)
+✔ found=false is separate from transport failure (0.652309ms)
+✔ protocol mismatch prevents assessment read; malformed found=false rejected (0.276565ms)
+✔ payload digest mismatch rejected beyond structural count verification (0.776465ms)
+✔ lookup returns correct ID/payload/status and rejects bad response (2.584087ms)
+✔ matrix renders text labels, SELF and stored direct BC relation (7.637139ms)
+✔ synthetic/real report labels bilingual fixed copy, safe escaped source data (12.428789ms)
+✔ all lifecycle states display, reducer cannot jump to success (2.900743ms)
+✔ homepage shows two live report coordinates and product-disabled submission (3.496366ms)
+✔ draft and client_key survive refresh without regeneration (2.098238ms)
+✔ recovery store persists only coordinates/input, never Assessment, receipt or wallet secrets (1.078448ms)
+✔ refresh submitted resumes same tx before lookup and never writes (13.666415ms)
+✔ refresh pending resumes same tx before lookup and never writes (1.504317ms)
+✔ refresh accepted_waiting_finality resumes same tx before lookup and never writes (1.171809ms)
+✔ refresh finalized_reading resumes same tx before lookup and never writes (1.050817ms)
+✔ refresh tracking_unavailable resumes same tx before lookup and never writes (1.301853ms)
+✔ unknown submission with matching finalized lookup recovers without receipt or write (1.448874ms)
+✔ unknown found=false retains key and locks all submission/new-assessment paths (2.335844ms)
+✔ unknown lookup conflict cannot recover someone else/different payload (3.14278ms)
+✔ completed refresh rechecks actual receipt once, wallet-free, without cached success (1.181753ms)
+✔ finalized read lag keeps coordinates; Resume retries getter only after confirmation (1.382595ms)
+✔ Accepted is not success across refresh; finality and matching read still required (1.44946ms)
+✔ one controller/poller: concurrent resume and recovery do not duplicate receipt reads (2.209255ms)
+✔ hidden tab blocks polling and becomes visible without compensation burst (1.084287ms)
+✔ visibility helper removes listener after foreground resumes (0.382094ms)
+✔ long pending uses 5/10/15s bounded schedule and stops with tx retained (11.879735ms)
+✔ RATE_LIMITED is tracking/read failure, not execution failure (6.331189ms)
+✔ RPC_TEMPORARY_FAILURE is tracking/read failure, not execution failure (1.156535ms)
+✔ RPC_UNAVAILABLE is tracking/read failure, not execution failure (0.85966ms)
+✔ actual terminal execution failure retains evidence and permits explicit New only (2.861483ms)
+✔ tampered recovery input/hash cannot trigger network or write (1.277196ms)
+✔ wrong network/version/corrupt storage never silently switches target or overwrites evidence (0.358258ms)
+✔ unavailable or quota-denied storage explicitly reports lack of refresh recovery (0.241963ms)
+✔ wallet disconnect/account change after submission leaves original read identity intact (1.841313ms)
+✔ signature boundary persisted before wallet invocation; lost response recovers conservatively (1.584137ms)
+✔ Retry-After seconds/date and reset header correctly determine delay (1.615514ms)
+✔ 429 Retry-After respected; consecutive limits increase shared cooldown and success resets streak (0.428113ms)
+✔ shared cooldown serializes protocol/receipt/report; duplicates coalesce across rerenders (0.40622ms)
+✔ 429 read budget is finite and next read obeys outstanding shared cooldown (0.302484ms)
+✔ temporary/offline errors are classified, retries remain finite and read-only (0.225318ms)
+✔ RPC HTTP shim handles real Response headers/body and never retries write methods (4.73513ms)
+✔ RPC envelope rate limit uses shared cooldown, not generic model/write retry (2.329796ms)
+✔ failed protocol cache resets for explicit read retry; incompatible protocol remains guarded (2.351308ms)
+✔ installing read shim twice cannot create nested schedulers or retries (0.506931ms)
+✔ preflight RPC failure is a read pause; Resume can recheck without sending assess (5.508696ms)
+✔ recovery draft/active mismatch is rejected rather than altering request namespace (0.308282ms)
+✔ storage warning copy and unknown/read-lag classifications are bilingual (9.705142ms)
+✔ incomplete/invalid editable draft survives refresh but canonical input checks remain separate (0.194702ms)
+✔ known signature rejection clears ambiguity while preserving original key and sends nothing automatically (4.034323ms)
+✔ preflight idempotency conflict has no submission ambiguity and allows explicit New key (0.763897ms)
+✔ saved completed hint cannot bypass unavailable actual receipt/finality (0.620501ms)
+✔ single-pass normalized BOM text stays byte-identical across persistence/hash recovery (0.830166ms)
+✔ zero providers publishes empty list and generic install guidance (10.685914ms)
+✔ one announced provider connects exact choice only on user action (0.625098ms)
+✔ multiple announced MetaMask and OKX providers open chooser without connecting (0.596455ms)
+✔ unknown compatible EIP6963 provider appears with installed brands (0.342905ms)
+✔ EIP6963 and same legacy provider deduplicate (0.296605ms)
+✔ OKX announced and distinct legacy wrapper deduplicate by wallet family (0.277857ms)
+✔ legacy window.ethereum supports unknown EIP1193 wallet (0.237407ms)
+✔ legacy aggregate is not a wallet when explicit provider list exists (0.317847ms)
+✔ repeated EIP6963 metadata deduplicates without numbered labels (0.356325ms)
+✔ distinct announced UUIDs retain independently identifiable instances (0.444887ms)
+✔ selected provider remains bound through preparation despite late discovery (0.62684ms)
+✔ initial UI shows Connect without permanent brand selector (0.922284ms)
+✔ discovery requests no accounts and listener cleanup works (0.191438ms)
+✔ legacy OKX wrappers without announcements deduplicate by recognized identity (0.235643ms)
+✔ provider discovery selects explicit MetaMask/OKX among multiple legacy providers without connect (2.011327ms)
+✔ EIP6963 announcement prefers explicit rdns and deduplicates provider identity (0.379029ms)
+✔ connect rejection is classified; listeners cleaned and local detach does not revoke authorization (0.945038ms)
+✔ wrong chain switches using Stable parameters, switch rejection sends nothing (0.498398ms)
+✔ missing network follows add then switch, with locked native currency/RPC (0.519469ms)
+✔ account/chain events invalidate preparation; disconnect only detaches UI (0.370496ms)
+✔ account changed without event and incorrect chain are checked before signature (0.787161ms)
+✔ frozen reference vectors retain TS input/hash parity (15.229782ms)
+✔ client_key valid and retained across preparation/reconnect; explicit new alone creates new key (0.714001ms)
+✔ preflight existing same payload opens finalized record, no new write (1.346611ms)
+✔ preflight conflicting payload rejects before any write (0.755284ms)
+✔ single controller locks double click, submitted real ID retained and finalized read routes report (6.189912ms)
+✔ signature rejection keeps same draft key and exposes recoverable rejection (0.907261ms)
+✔ ACCEPTED is never final success and causes no assessment read until FINALIZED (1.323526ms)
+✔ finalized failure does not read a successful report {"status":"FINALIZED","execution":"ERROR"} (6.810108ms)
+✔ finalized failure does not read a successful report {"status":"FINALIZED","execution":"SUCCESS","consensus":"MAJORITY_DISAGREE"} (1.445679ms)
+✔ finalized failure does not read a successful report {"status":"FINALIZED"} (1.82595ms)
+✔ finalized read lag stays reading, retries only read and does not resend (1.554582ms)
+✔ receipt request_id mismatch fails before read (1.182855ms)
+✔ finalized record input/account mismatch cannot produce success (1.237747ms)
+✔ transport read error preserves transaction and never resends (1.434302ms)
+✔ protocol mismatch stops before lookup and signature (0.852489ms)
+GenLayer RPC error (eth_estimateGas): estimate unavailable
+Gas estimation failed, using default 200_000: UnknownRpcError: An unknown RPC error occurred.
+
+Details: estimate unavailable
+Version: viem@2.57.3
+    at withRetry.delay.count.count (/workspace/scratch/6ad74b9a2f71/echomap/node_modules/viem/utils/buildRequest.ts:264:25)
+    at async attemptRetry (/workspace/scratch/6ad74b9a2f71/echomap/node_modules/viem/utils/promise/withRetry.ts:63:22) {
+  details: 'estimate unavailable',
+  docsPath: undefined,
+  metaMessages: undefined,
+  shortMessage: 'An unknown RPC error occurred.',
+  version: '2.57.3',
+  code: -1,
+  [cause]: { code: -1, message: 'estimate unavailable' }
+}
+GenLayer RPC error (eth_estimateGas): estimate unavailable
+Error using provider for method eth_sendTransaction: UnknownRpcError: An unknown RPC error occurred.
+
+Details: estimate unavailable
+Version: viem@2.57.3
+    at withRetry.delay.count.count (/workspace/scratch/6ad74b9a2f71/echomap/node_modules/viem/utils/buildRequest.ts:264:25)
+    at async attemptRetry (/workspace/scratch/6ad74b9a2f71/echomap/node_modules/viem/utils/promise/withRetry.ts:63:22) {
+  details: 'estimate unavailable',
+  docsPath: undefined,
+  metaMessages: undefined,
+  shortMessage: 'An unknown RPC error occurred.',
+  version: '2.57.3',
+  code: -1,
+  [cause]: { code: -1, message: 'estimate unavailable' }
+}
+✔ confirmed insufficient funds classified; unknown submission locks automatic resubmission (2.035755ms)
+✔ locked SDK wallet path encodes canonical assess, full consensus and fee estimate before signature (MOCK) (14.645264ms)
+✔ SDK estimate failure cannot reach wallet signing even if SDK fallback triggers (MOCK) (6.892753ms)
+✔ actual historical receipt decoder uses official calldata encoding, no guessed result text (0.576645ms)
+✔ finalized COMPLETE maps only after matched public-document record (6.203929ms)
+✔ account change during preflight cancels write preparation before signature (1.029595ms)
+✔ exhausted finalized read lag pauses tracking and never resends or claims success (1.012279ms)
+✔ receipt binding matches actual historical assess and rejects foreign hash/sender/contract/calldata (0.694492ms)
+ℹ tests 127
+ℹ suites 0
+ℹ pass 127
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1200.083697

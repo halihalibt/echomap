@@ -1,0 +1,89 @@
+{
+  "found": true,
+  "assessment": {
+    "claim": "2026-09-15，虚构Meridian公园白天气温超过30°C。",
+    "client_key": "echo-3c5df99d6e2b471695291c639e8576c4",
+    "context": "全部观测为虚构，仅解释来源依赖与两两独立集合。",
+    "creator": "0x22acaa233b7b985b36ef168f2de9295334065b15",
+    "dependent_pair_count": 1,
+    "independent_pair_count": 1,
+    "max_supported_independent_set": [
+      0,
+      2
+    ],
+    "max_supported_independent_set_size": 2,
+    "pairs": [
+      {
+        "i": 0,
+        "j": 1,
+        "relation": "DEPENDENT"
+      },
+      {
+        "i": 0,
+        "j": 2,
+        "relation": "INDEPENDENT"
+      },
+      {
+        "i": 0,
+        "j": 3,
+        "relation": "UNKNOWN"
+      },
+      {
+        "i": 1,
+        "j": 2,
+        "relation": "UNKNOWN"
+      },
+      {
+        "i": 1,
+        "j": 3,
+        "relation": "UNKNOWN"
+      },
+      {
+        "i": 2,
+        "j": 3,
+        "relation": "UNKNOWN"
+      }
+    ],
+    "payload_digest": "e06b4af4688ba1f6a14bf60d8b350846ca8cf622c9945c4bf482ac60d7b83391",
+    "protocol_version": "EIM-V1-STUDIO",
+    "request_id": "1a881569aa32902b46025cbf81817ddca529467fba23df079a5b5134af619190",
+    "result_status": "PARTIAL",
+    "sources": [
+      {
+        "content_digest": "6c43347c1fb16acccc4e62974f022a64acfc955430ffab06d8609b5c5b24396e",
+        "index": 0,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt"
+      },
+      {
+        "content_digest": "8a66971a5800d7207d0059942e581724b6bf2d6d8d293ffcb43d59e76cd4a499",
+        "index": 1,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt"
+      },
+      {
+        "content_digest": "096f2ce09f5ca120f8aa82d995f87137e8920ceaa869f6e0495d446046853866",
+        "index": 2,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt"
+      },
+      {
+        "content_digest": "9d6164044bcfa6bbf13d8cdf70a1352173b1ccb963907a938d8aa0afcbf69065",
+        "index": 3,
+        "read_status": "READABLE",
+        "relevance": "RELEVANT",
+        "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+      }
+    ],
+    "unknown_pair_count": 4,
+    "urls": [
+      "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt",
+      "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt",
+      "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt",
+      "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+    ]
+  }
+}

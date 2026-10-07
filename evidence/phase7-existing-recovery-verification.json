@@ -1,0 +1,31 @@
+{
+  "scope": "REAL READ-ONLY EXISTING FINALIZED TRANSACTION + TWO-PROCESS RESTART; NOT BROWSER REFRESH OR NEW E2E",
+  "transaction": "0xc36631f831424a6edb897c41261cb859ef9ed88bcf447583d5a609be07fbc7df",
+  "request_id": "1a881569aa32902b46025cbf81817ddca529467fba23df079a5b5134af619190",
+  "network": "Stable Studionet",
+  "chainId": 61999,
+  "contract": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+  "states": [
+    "tracking_unavailable",
+    "tracking_unavailable",
+    "tracking_unavailable",
+    "finalized_reading",
+    "finalized_partial"
+  ],
+  "finalState": "finalized_partial",
+  "actualCounts": [
+    1,
+    1,
+    4
+  ],
+  "rpcMethods": [
+    "eth_getTransactionByHash",
+    "gen_call",
+    "gen_call"
+  ],
+  "walletConnected": false,
+  "newTransactions": 0,
+  "newDeployments": 0,
+  "browserRefresh": "NOT_VERIFIED: Cloud Browser localhost ERR_CONNECTION_REFUSED",
+  "time": "2026-10-07T12:55:52.833Z"
+}

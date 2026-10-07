@@ -1,0 +1,83 @@
+{
+  "verifiedAtUTC": "2026-10-07T16:51:13.940Z",
+  "network": "Stable Studionet",
+  "chainId": 61999,
+  "contract": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+  "transaction": "0x2915b28c0963aa42d026169e5181e93c3ff673ffa01e0485724e575aed4bf20d",
+  "request_id": "8bcc1dcb3ba13df648d68b9e81d01c2257695265c988a91cd5978d414076f350",
+  "client_key": "echo-33faa1919c7b4f4fa2247bfbfa1320dd",
+  "creator": "0x22acaa233b7b985b36ef168f2de9295334065b15",
+  "payload_digest": "e06b4af4688ba1f6a14bf60d8b350846ca8cf622c9945c4bf482ac60d7b83391",
+  "status": "FINALIZED",
+  "consensus": "MAJORITY_DISAGREE",
+  "execution": "SUCCESS",
+  "returns": [
+    {
+      "disposition": "NEW",
+      "request_id": "8bcc1dcb3ba13df648d68b9e81d01c2257695265c988a91cd5978d414076f350",
+      "result_status": "PARTIAL"
+    },
+    {
+      "disposition": "NEW",
+      "request_id": "8bcc1dcb3ba13df648d68b9e81d01c2257695265c988a91cd5978d414076f350",
+      "result_status": "PARTIAL"
+    }
+  ],
+  "calldata": {
+    "args": [
+      "echo-33faa1919c7b4f4fa2247bfbfa1320dd",
+      "2026-09-15，虚构Meridian公园白天气温超过30°C。",
+      "全部观测为虚构，仅解释来源依赖与两两独立集合。",
+      [
+        "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt",
+        "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt",
+        "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt",
+        "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+      ]
+    ],
+    "method": "assess"
+  },
+  "protocol": {
+    "limits": {
+      "body_bytes": 32768,
+      "claim": 600,
+      "client_key": 64,
+      "context": 400,
+      "sources_max": 4,
+      "sources_min": 2,
+      "text_codepoints": 8000,
+      "url_bytes": 512
+    },
+    "protocol_version": "EIM-V1-STUDIO",
+    "relation_rules": "EIM-V1-STUDIO",
+    "schema_version": "EIM-CANDIDATE-V1",
+    "source_rules": {
+      "extensions": [
+        ".txt",
+        ".md",
+        ".adoc",
+        ".sol"
+      ],
+      "hosts": [
+        "raw.githubusercontent.com",
+        "<legal-github-owner>.github.io"
+      ],
+      "scheme": "https"
+    }
+  },
+  "finalizedAssessment": {
+    "found": false
+  },
+  "finalizedLookup": {
+    "found": false,
+    "request_id": "8bcc1dcb3ba13df648d68b9e81d01c2257695265c988a91cd5978d414076f350"
+  },
+  "readRpcMethods": [
+    "eth_getTransactionByHash",
+    "gen_call",
+    "gen_call",
+    "gen_call"
+  ],
+  "newTransactions": 0,
+  "newDeployments": 0
+}

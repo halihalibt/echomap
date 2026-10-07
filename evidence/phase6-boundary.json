@@ -1,0 +1,11 @@
+{
+  "RepositoryA": "NO WRITES PERFORMED IN PHASE6",
+  "production_source_matches_canonical_commit_and_sha": true,
+  "freeze_sha256": "c2c8de7785c528b24eea126d58a74576d7e39746021560b448cfd358c65a2687",
+  "baseline_40_tests": "BYTE_FOR_BYTE_UNCHANGED",
+  "new_deployments": 0,
+  "new_frontend_transactions": 0,
+  "cash_spending": 0,
+  "real_wallet_e2e": "PENDING_USER_ACTION",
+  "cloud_browser": "Extension-manager URL rejected by HTTP/HTTPS-only security policy; extension provider NOT VERIFIED; no workaround"
+}

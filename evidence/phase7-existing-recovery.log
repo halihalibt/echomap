@@ -1,0 +1,2 @@
+Saved recovery coordinates for existing FINALIZED transaction; no network call, no write.
+Existing-finalized recovery PASS; new process loaded same tx/key and reached actual finalized report, wallet-free.

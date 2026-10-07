@@ -1,0 +1,32 @@
+{
+  "verifiedAtUTC": "2026-10-07T14:53:26.258155+00:00",
+  "phase": "PHASE7",
+  "gate": "PASS / CLOSED",
+  "implementationCommit": "a6da8809c4330f4dd43de773a67862a24a7f2c1b",
+  "productionChangesThisClosure": 0,
+  "focusedTests": {
+    "runs": 1,
+    "passed": 43,
+    "failed": 0
+  },
+  "fullRegression": {
+    "runs": 1,
+    "passed": 127,
+    "failed": 0
+  },
+  "productionBuild": {
+    "runs": 1,
+    "status": "PASS",
+    "warning": "existing bundle size",
+    "mainKB": 776.12,
+    "mainGzipKB": 194.1
+  },
+  "protectedFilesUnchanged": true,
+  "repositoryAUnchanged": true,
+  "freezeUnchanged": true,
+  "realTransactionsSent": 0,
+  "deployments": 0,
+  "networkRequestsThisClosure": 0,
+  "realBrowserRefresh": "NOT_REAL_BROWSER_VERIFIED",
+  "nextExactAction": "STOP; await explicit PHASE8 authorization"
+}

@@ -1,0 +1,27 @@
+{
+  "protectedFilesUnchanged": {
+    "src/wallet.ts": "f443322eaf2f7a085d102e39c990e8ee1ffb09c2cf60ca1229c1b138d1f6aed3",
+    "src/WalletPanel.tsx": "c7c044bc96b2e8dd7ca5ed32718e62eea3d333838d1bd924a15d2028e05854b6",
+    "src/core.ts": "506bd450a3a35286c5f5d71433f3701bcc8c4a4b5b0cb270fccbd82d2a8157fb",
+    "src/types.ts": "57c78105bbb8b0711439593080914c383eedba55e64a9b08be7f5f4fea3f051a",
+    "src/lifecycle.ts": "0c8f0bed06690c4b9faefb75e41b0b2f84e455c19941d63b5d9216dc9ea83a43",
+    "src/config/deployment.json": "8dbac3381237d50316e46fda488c22a2ab7435cfdb11948156b72306e6d74f50",
+    "package.json": "ec99338419d6b78cff88c3a6213f534328597c6ad9c99cff9f366ba529526b10",
+    "package-lock.json": "ab11960e8779ecf0106f156b3b25e0fd1c9c6228c0220f66986d99bdba4ba3a2",
+    "tests/foundation.test.ts": "df5a7278cf9fc44dc98e5b962f1cb0a622194cee489eeaf97d4cba15113ed4c4",
+    "tests/write.test.ts": "721b6461e57bc12dc6285007ccc5644ffbc29f05e33deeee11a3fc932731133b",
+    "tests/wallet-discovery.test.ts": "3384496e9dcefc9ad7150cb1b8f508cf205b0c63a58bbb8e64e912ab3d0a7ea5",
+    "docs/REAL_WALLET_E2E_EVIDENCE.md": "5d27c93a21adb3567b292ff3ee92d618bd96ddef7e027450f7f7c04ebe855573",
+    "evidence/real-wallet-e2e-receipt.json": "a666b641f97c1ad65c51f1b4a13f5c5a9b0e3220888c6f827b17a99eb3f4daa7",
+    "evidence/real-wallet-e2e-finalized-assessment.json": "860b6c174f7f889abb2c72ebeae10886a46161f259115612aae53a6f3eb52e2a"
+  },
+  "repositoryAUnchanged": true,
+  "repositoryAGitStatusUnchanged": true,
+  "freezeSHA256": "c2c8de7785c528b24eea126d58a74576d7e39746021560b448cfd358c65a2687",
+  "original84TestsUnchanged": true,
+  "walletDiscoveryUnchanged": true,
+  "contractAdapterWriteGuardUnchanged": true,
+  "newTransactions": 0,
+  "newDeployments": 0,
+  "newDependencies": 0
+}
