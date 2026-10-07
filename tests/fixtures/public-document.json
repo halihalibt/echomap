@@ -1,0 +1,44 @@
+{
+  "claim": "ERC-20\u89c4\u8303\u5b9a\u4e49balanceOf\u7528\u4e8e\u8fd4\u56de\u6307\u5b9a\u8d26\u6237\u7684token\u4f59\u989d\u3002",
+  "client_key": "final-erc20-closure-20261007",
+  "context": "\u5224\u65ad\u8303\u56f4\u4e3a\u89c4\u8303\u89c4\u5b9a\u7684\u63a5\u53e3\uff0c\u4e0d\u662f\u4ee3\u7801\u662f\u5426\u72ec\u7acb\u5f00\u53d1\u3002",
+  "creator": "0xcbc19a09b41a3450fad5881386c069ed5ae0313c",
+  "dependent_pair_count": 1,
+  "independent_pair_count": 0,
+  "max_supported_independent_set": [
+    0
+  ],
+  "max_supported_independent_set_size": 1,
+  "pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "relation": "DEPENDENT"
+    }
+  ],
+  "payload_digest": "b49273ab5265b1f812cf230cc55cc4234172aa68015bb8b2828464ce477efd4d",
+  "protocol_version": "EIM-V1-STUDIO",
+  "request_id": "5c8aae111e19f6b193d5a8b4b8dce4697f424166922cd2116b49343b620c7b46",
+  "result_status": "COMPLETE",
+  "sources": [
+    {
+      "content_digest": "4cbb8139ede4a09ec0e79b57e6b8eda9481c0ad731fc7745a0ec058847bc8350",
+      "index": 0,
+      "read_status": "READABLE",
+      "relevance": "RELEVANT",
+      "url": "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol"
+    },
+    {
+      "content_digest": "5ad66b7c4d33aae514fc5fdffba24804a5b4b2edbda9662cb9e1ba60136ec587",
+      "index": 1,
+      "read_status": "READABLE",
+      "relevance": "RELEVANT",
+      "url": "https://raw.githubusercontent.com/ethereum/ERCs/f2f4ff22452dec9d340ba9b8b1ee33c962a613d6/ERCS/erc-20.md"
+    }
+  ],
+  "unknown_pair_count": 0,
+  "urls": [
+    "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v5.4.0/contracts/token/ERC20/IERC20.sol",
+    "https://raw.githubusercontent.com/ethereum/ERCs/f2f4ff22452dec9d340ba9b8b1ee33c962a613d6/ERCS/erc-20.md"
+  ]
+}

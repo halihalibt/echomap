@@ -1,0 +1,86 @@
+{
+  "claim": "2026-09-15\uff0c\u865a\u6784Meridian\u516c\u56ed\u767d\u5929\u6c14\u6e29\u8d85\u8fc730\u00b0C\u3002",
+  "client_key": "acr001-safety-controlled-20261007",
+  "context": "\u5168\u90e8\u89c2\u6d4b\u4e3a\u865a\u6784\uff0c\u4ec5\u89e3\u91ca\u6765\u6e90\u4f9d\u8d56\u4e0e\u4e24\u4e24\u72ec\u7acb\u96c6\u5408\u3002",
+  "creator": "0xcbc19a09b41a3450fad5881386c069ed5ae0313c",
+  "dependent_pair_count": 1,
+  "independent_pair_count": 2,
+  "max_supported_independent_set": [
+    0,
+    2
+  ],
+  "max_supported_independent_set_size": 2,
+  "pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "relation": "DEPENDENT"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "relation": "INDEPENDENT"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "relation": "UNKNOWN"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "relation": "INDEPENDENT"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "relation": "UNKNOWN"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "relation": "UNKNOWN"
+    }
+  ],
+  "payload_digest": "e06b4af4688ba1f6a14bf60d8b350846ca8cf622c9945c4bf482ac60d7b83391",
+  "protocol_version": "EIM-V1-STUDIO",
+  "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+  "result_status": "PARTIAL",
+  "sources": [
+    {
+      "content_digest": "6c43347c1fb16acccc4e62974f022a64acfc955430ffab06d8609b5c5b24396e",
+      "index": 0,
+      "read_status": "READABLE",
+      "relevance": "RELEVANT",
+      "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt"
+    },
+    {
+      "content_digest": "8a66971a5800d7207d0059942e581724b6bf2d6d8d293ffcb43d59e76cd4a499",
+      "index": 1,
+      "read_status": "READABLE",
+      "relevance": "RELEVANT",
+      "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt"
+    },
+    {
+      "content_digest": "096f2ce09f5ca120f8aa82d995f87137e8920ceaa869f6e0495d446046853866",
+      "index": 2,
+      "read_status": "READABLE",
+      "relevance": "RELEVANT",
+      "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt"
+    },
+    {
+      "content_digest": "9d6164044bcfa6bbf13d8cdf70a1352173b1ccb963907a938d8aa0afcbf69065",
+      "index": 3,
+      "read_status": "READABLE",
+      "relevance": "RELEVANT",
+      "url": "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+    }
+  ],
+  "unknown_pair_count": 3,
+  "urls": [
+    "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/a.txt",
+    "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/b.txt",
+    "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/c.txt",
+    "https://raw.githubusercontent.com/halihalibt/evidence-independence-matrix/5a11c820a28e23303298f12650377ee78faab0ba/fixtures/synthetic/v1/d.txt"
+  ]
+}

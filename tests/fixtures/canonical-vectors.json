@@ -1,0 +1,80 @@
+[
+  {
+    "creator": "0xABABABABABABABABABABABABABABABABABABABAB",
+    "raw_inputs": {
+      "client_key": "Vector_1",
+      "claim": "﻿ \r\n中文 😀 \"quoted\"\\path\rSecond  line  ",
+      "context": "\r\nContext\rline\n",
+      "urls": [
+        "HTTPS://Zeta.GITHUB.IO:443/Note%2fA.md",
+        "https://raw.githubusercontent.com/a/repo/main/a.txt"
+      ]
+    },
+    "normalized_inputs": {
+      "client_key": "Vector_1",
+      "claim": "中文 😀 \"quoted\"\\path\nSecond  line",
+      "context": "Context\nline",
+      "urls": [
+        "https://raw.githubusercontent.com/a/repo/main/a.txt",
+        "https://zeta.github.io/Note%2fA.md"
+      ]
+    },
+    "normalized_creator": "0xabababababababababababababababababababab",
+    "request_canonical_json": "[\"EIM-V1-STUDIO\",\"0xabababababababababababababababababababab\",\"Vector_1\"]",
+    "payload_canonical_json": "[\"EIM-V1-STUDIO\",\"中文 😀 \\\"quoted\\\"\\\\path\\nSecond  line\",\"Context\\nline\",[\"https://raw.githubusercontent.com/a/repo/main/a.txt\",\"https://zeta.github.io/Note%2fA.md\"]]",
+    "request_id": "7b2874b181eabc04cdf2e2b3f29c0657e4883bca3cce73bf1383d6439fd2925b",
+    "payload_digest": "daeca35c7a408f5401a75b6aeebed12d26385a8fe1a07e5e6b779872621a8737"
+  },
+  {
+    "creator": "0x0101010101010101010101010101010101010101",
+    "raw_inputs": {
+      "client_key": "k",
+      "claim": "Emoji 😀\u001c",
+      "context": "",
+      "urls": [
+        "https://alice.github.io/b.sol",
+        "https://alice.github.io/a.adoc"
+      ]
+    },
+    "normalized_inputs": {
+      "client_key": "k",
+      "claim": "Emoji 😀",
+      "context": "",
+      "urls": [
+        "https://alice.github.io/a.adoc",
+        "https://alice.github.io/b.sol"
+      ]
+    },
+    "normalized_creator": "0x0101010101010101010101010101010101010101",
+    "request_canonical_json": "[\"EIM-V1-STUDIO\",\"0x0101010101010101010101010101010101010101\",\"k\"]",
+    "payload_canonical_json": "[\"EIM-V1-STUDIO\",\"Emoji 😀\",\"\",[\"https://alice.github.io/a.adoc\",\"https://alice.github.io/b.sol\"]]",
+    "request_id": "b193f186ba08e2666c60916f52828b12a282d10720ec9f7c9192ca8d80d4a507",
+    "payload_digest": "5e91e871dbc57e22dafb035a7b73d35954c82bfa3e6ec09122a18b2e82dcebc0"
+  },
+  {
+    "creator": "0x0000000000000000000000000000000000000000",
+    "raw_inputs": {
+      "client_key": "Case-sensitive-key",
+      "claim": "A  B\rC",
+      "context": "  保留  间隔  ",
+      "urls": [
+        "https://raw.githubusercontent.com/a/r/main/X.txt",
+        "https://raw.githubusercontent.com/a/r/main/x.txt"
+      ]
+    },
+    "normalized_inputs": {
+      "client_key": "Case-sensitive-key",
+      "claim": "A  B\nC",
+      "context": "保留  间隔",
+      "urls": [
+        "https://raw.githubusercontent.com/a/r/main/X.txt",
+        "https://raw.githubusercontent.com/a/r/main/x.txt"
+      ]
+    },
+    "normalized_creator": "0x0000000000000000000000000000000000000000",
+    "request_canonical_json": "[\"EIM-V1-STUDIO\",\"0x0000000000000000000000000000000000000000\",\"Case-sensitive-key\"]",
+    "payload_canonical_json": "[\"EIM-V1-STUDIO\",\"A  B\\nC\",\"保留  间隔\",[\"https://raw.githubusercontent.com/a/r/main/X.txt\",\"https://raw.githubusercontent.com/a/r/main/x.txt\"]]",
+    "request_id": "7d06024cdaeb5ffbeaafbfe58fe02e0528040e1dbe54b77c59d20f48bf709c5f",
+    "payload_digest": "1e970aa86354e4458f1dafebc51956616d0ed58c5aecc19b6b3a3b2b8323c7b5"
+  }
+]
