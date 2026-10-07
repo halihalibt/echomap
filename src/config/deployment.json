@@ -1,0 +1,35 @@
+{
+  "network": "Stable Studionet",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "explorer": "https://explorer-studio.genlayer.com",
+  "contract": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+  "protocolVersion": "EIM-V1-STUDIO",
+  "schemaVersion": "EIM-CANDIDATE-V1",
+  "rulesIdentifier": "EIM-V1-STUDIO",
+  "sourceRepository": "https://github.com/halihalibt/evidence-independence-matrix",
+  "sourceCommit": "4874fd469cb5477b9d8f8ec9dbc19252a6112e6e",
+  "limits": {
+    "body_bytes": 32768,
+    "claim": 600,
+    "client_key": 64,
+    "context": 400,
+    "sources_max": 4,
+    "sources_min": 2,
+    "text_codepoints": 8000,
+    "url_bytes": 512
+  },
+  "sourceRules": {
+    "extensions": [
+      ".txt",
+      ".md",
+      ".adoc",
+      ".sol"
+    ],
+    "hosts": [
+      "raw.githubusercontent.com",
+      "<legal-github-owner>.github.io"
+    ],
+    "scheme": "https"
+  }
+}

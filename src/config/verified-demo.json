@@ -1,0 +1,18 @@
+[
+  {
+    "network": "Stable Studionet",
+    "contract": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+    "request_id": "68b9090d638738bd0236b084aff95ae7551d8df11da9b282aaa536ecd448258f",
+    "creation_transaction": "0xec875a1a5de724b7fd6a407e851ba736393ae508f330c1b94059c9f72191d7f4",
+    "protocol_version": "EIM-V1-STUDIO",
+    "label": "SYNTHETIC DEMO"
+  },
+  {
+    "network": "Stable Studionet",
+    "contract": "0x7045b893E15B699e04494aA3849730bC6Aa1C864",
+    "request_id": "5c8aae111e19f6b193d5a8b4b8dce4697f424166922cd2116b49343b620c7b46",
+    "creation_transaction": "0x77ddb362ff4fa11dc9a827de14f143da266c3c9c82d018950c9fc9376b45f4bb",
+    "protocol_version": "EIM-V1-STUDIO",
+    "label": "REAL PUBLIC DOCUMENT EXAMPLE"
+  }
+]
